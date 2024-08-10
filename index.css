@@ -82,6 +82,12 @@ h5 {
     text-align: center;
     list-style: none; 
 }
+#services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .services-section {
     display: flex;
     justify-content: space-evenly;
@@ -99,10 +105,22 @@ h5 {
     border-radius: 20%;
 }
 .showmax {
-    width: 30vw;
+    width: 20vw;
     height: 20vh;
-    border-radius: 20%;
 }
+#contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#feedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 #feedback textarea {
     width: 100%;
     max-width: 400px;
